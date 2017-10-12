@@ -1,0 +1,2 @@
+class Begen < ApplicationRecord
+end

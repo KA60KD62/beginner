@@ -1,0 +1,2 @@
+module BegensHelper
+end

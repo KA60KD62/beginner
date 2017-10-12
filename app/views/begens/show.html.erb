@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @begen.name %>
+</p>
+
+<p>
+  <strong>Comment:</strong>
+  <%= @begen.comment %>
+</p>
+
+<%= link_to 'Edit', edit_begen_path(@begen) %> |
+<%= link_to 'Back', begens_path %>
